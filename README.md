@@ -1,9 +1,12 @@
-# zinu alpha.0
+# Zinu - v0.Alpha
 
-# Signals
+## SIGNALS TABLE
 
-0   - HANDSHAKE
-1   - SEND THE NUMBER OF PACKAGES
-2   - SEND THE PACKAGES
-3   - RESET PROCESS
->=4 - CUSTOM SIGNALS
+| SIGNAL ID | SIGNAL |
+|---|---|
+| 0 | HANDSHAKE  |
+| 1 | SEND PACKAGE NUMBER  |
+| 2 | SEND DATA PACKAGE  |
+| 3 | RESET DATA SEND  |
+| [4-255] | CUSTOM SIGNALS  |
+
